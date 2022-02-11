@@ -1,5 +1,10 @@
+
+
+
+
+
 .mountain {
-    position: absolute;
+   height: 1000px;
     width: 2000px;
 }
 
@@ -28,7 +33,8 @@
   }
 
 .nav {
-   background-color: rgb(0, 208, 245); color: #fff;
+    background-color: rgb(0, 208, 245); color: #fff;
+   
 }
 
 .compname {
@@ -43,7 +49,7 @@
 .parallax {
   
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 60px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -51,5 +57,130 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
+  .navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.bg-black{
+    background: #131a9c;
+    
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+
+
+
+.w3-bar, 
+h1,
+button {
+  font-family: "Montserrat", sans-serif
+}
+
+p {
+  color: grey;
+}
+
+
+.to-the-top {
+  background-color: lightskyblue(12, 173, 1);
+  color: rgb(0, 0, 0);
+}
+
+.slideshow-container {
+  position: relative;
+  background: #000000;
+}
+
+.slides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(0, 0, 0);
+}
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: rgb(0, 0, 0);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  transition: backround-color 0.6 ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+q {
+  font-style: italic;
+}
+
+.maker {
+    color: lightskyblue;
+}
+
+.background1 {
+    position: absolute;
+    background-color: #4e6470;
+    width: 110%;
+    top: 700px;
+    left: -2%;
+    padding: 0px;
+    height: 300px;
+    margin: 20px;
+    z-index: 999;
+    
+    
+}
+
+
+
 
 

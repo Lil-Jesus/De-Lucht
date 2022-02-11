@@ -1,0 +1,46 @@
+
+
+
+
+
+.mountain {
+    height: 1000px;
+     width: 2000px;
+ }
+ 
+ .heading1 {
+     position: absolute;
+     background-color: #ccecff;
+     width: 400px;
+     top: 30px;
+     left: 700px;
+     padding: 0px;
+     height: 100px;
+     margin: 20px;
+     z-index: 999;
+     opacity: 95%;
+     border-bottom-left-radius: 10%;
+     border-bottom-right-radius: 10%;
+ }
+ 
+ 
+ .page {
+     color:#fff!important; background-color:rgb(69, 173, 233)!important
+ }
+ 
+ .logo {
+     color: #ffff;
+   }
+ 
+ 
+ 
+ .compname {
+     position: absolute;
+     color: rgb(81, 132, 141);
+     font-size: 500%;
+     left: 40px;
+     top: 27px;
+     font-family: "Brush Script MT", cursive; font-size: 100px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Brush Script MT", cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Brush Script MT", cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Brush Script MT", cursive; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Brush Script MT", cursive; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; 
+ }
+ 
+ 
